@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1742821855172-f26e4ed9bb5f?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"width = "300px" alt="Not loaded">
+    <img style="margin: 10px;" src="./image.jpeg" width="300px" alt="Jeet image">
+
+    <picture>
+        <source srcset="https://images.unsplash.com/photo-1741606369311-8e3d4dbe4b8e?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        media="(min-width: 477px)"
+        />
+        <img src="./image1.jpeg" width="300px" alt="Yadav Image">
+    </picture>
+
+
+    <!-- an image map generator -->
+
+    <img src="image1.jpeg" width="500px" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="" alt="" title="" href="" coords="2153,1678,1919,1441" shape="rect">
+    </map>
+
+<script>
+    function one(){
+        alert("You clicked one")
+    }
+
+    function two(){
+        alert("You clicked two")
+    }
+</script>
+</body>
+</html>
